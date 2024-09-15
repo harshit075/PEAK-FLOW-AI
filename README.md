@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+**PEAK FLOW AI : DELHI POWER CONSUPTION**
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -11,60 +11,27 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Proposed Solution: AI-Based Load Forecasting and Optimization for NCT of Delhi 
+The National Capital Territory (NCT) of Delhi faces significant challenges in managing its highly 
+variable power demand, influenced by seasonal fluctuations, time-of-day variations, and rapid urban 
+development. To address these issues, we propose developing an Artificial Intelligence (AI)-based 
+load forecasting and optimization model. This model aims to enhance accuracy in power demand 
+forecasting and optimize power procurement strategies. 
+AI-Based Forecasting Model 
+1. Data Collection: Integrate diverse data sources including weather conditions (temperature, 
+humidity, wind speed), historical load patterns, public holidays, real estate development, and solar 
+power generation forecasts. This comprehensive data set forms the foundation for accurate 
+predictions. 
+2. Model Development: - Feature Engineering: Develop features that reflect the relationships between weather, time-of
+day, and power demand. For instance, high temperatures may correlate with increased cooling 
+needs. - Algorithm Selection: Employ advanced machine learning techniques such as Long Short-Term 
+Memory (LSTM) networks for time-series forecasting and ensemble methods like Random Forests for 
+robust predictions. - Training and Validation: Train the model with historical data and validate its accuracy with recent 
+data to ensure reliable forecasting 
+3. Compensation Methodology: - Dynamic Load Shifting: Implement demand response strategies to shift or reduce loads during 
+peak times. Use AI forecasts to incentivize changes in consumption patterns. - Real-Time Adjustments: Use real-time data to adjust power procurement strategies dynamically, 
+balancing load and generation effectively. 
+Optimization of Power Procurement - RTC vs. Slot-Wise Power: The model will help balance the procurement of Round the Clock (RTC) 
+power and slot-wise power. Secure RTC power during predictable low-demand periods at lower rates 
+and rely on slot-wise power during peak periods. - Long-Term Contracts: Factor in load growth projections and seasonal variations to negotiate long
+term power purchase agreements, ensuring a cost-effective and reliable supply.
